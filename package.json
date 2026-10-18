@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "./src/utils/fn.ts"
+  ],
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"

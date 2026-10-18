@@ -1,3 +1,5 @@
+import "./secondFn";
+
 // side effect (in module scope)
 console.log("side effect 1");
 
